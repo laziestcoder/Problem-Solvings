@@ -1,0 +1,2 @@
+@echo off
+ping https://web.facebook.com/celestial.deena? -t -| 65000
