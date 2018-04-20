@@ -1,23 +1,17 @@
-/************************************************************************/
-/*	Name: Towfiqul Islam 												*/
-/*	uva id: 448714 														*/
-/*	email id: towfiq.106@gmail.com										*/
-/*	institute: IIUC														*/
-/*	address: Chittagong, Bangladesh										*/
-/*																		*/
-/************************************************************************/
-
 #include<stdio.h>
-int main()
+int main ()
 {
-	long long int a,b,c;
-	while(scanf("%lld%lld",&a,&b)==2)
-	{
-		if(a>b)
-			c=a-b;
-		else
-			c=b-a;
-		printf("%lld\n",c);
-	}
-	return 0;
+    long long int a,b,x;
+    while((scanf("%lld%lld",&a,&b))==2)
+    {
+        if(a<b)
+            {x=b-a;
+            printf("%lld\n",x);
+            }
+        else
+            {x=a-b;
+        printf("%lld\n",x);}
+
+    }
+    return 0;
 }

@@ -1,65 +1,42 @@
-/************************************************************************/
-/*	Name: Towfiqul Islam 												*/
-/*	uva id: 448714 														*/
-/*	email id: towfiq.106@gmail.com										*/
-/*	institute: IIUC														*/
-/*	address: Chittagong, Bangladesh										*/
-/*																		*/
-/************************************************************************/
-
 #include<stdio.h>
-int cycle(int n)
-{
-    int x=1;
-    while(1)
-    {
-        if(n==1)
-            break;
-        else
-        {
-            if(n%2==0)
-                n=n/2;
-            else
-                n=3*n+1;
-            x++;
-        }
-    }
-    return(x);
-}
-int main()
-{
-    int i,j,a,b,c,max;
 
-    while(scanf("%d%d",&i,&j)==2)
+int main ()
+{
+    int n;
+    long long int q,i,k,t,c,m,j,p,r;
+    while(scanf("%lld%lld",&r,&q)!=EOF)
     {
-        if(i<j)
+        if(r>q)
         {
-            a=i;
-            b=j;
-            max=0;
-            for(a; a<=b; a++)
-            {
-                c=cycle(a);
-                if(c>max)
-                    max=c;
-                        printf("%d %d\n",a,max);
-            }
-            printf("%d %d %d\n",i,j,max);
+            i=q;
+            j=r;
         }
         else
         {
-            b=i;
-            a=j;
-            max=0;
-            for(b; b>=a; b--)
-            {
-                c=cycle(b);
-                if(c>max)
-                    max=c;
-                      printf("%d %d\n",b,max);
-            }
-            printf("%d %d %d\n",i,j,max);
+            i=r;
+            j=q;
         }
+        m=0;
+        for(p=i; p<=j; p++)
+        {
+            k=p;
+            c=0;
+            n=2;
+            while(n>1)
+            {
+                if(k==1 || k==0)
+                    n=0;
+                else if(k>1 && k%2!=0)
+                    k=(k*3)+1;
+                else if(k>1 && k%2==0)
+                    k=k/2;
+                c++;
+            }
+            if(c>=m)
+                m=c;
+        }
+        printf("%lld %lld %lld\n",r,q,m);
     }
     return 0;
 }
+

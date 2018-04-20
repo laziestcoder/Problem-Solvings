@@ -2,10 +2,6 @@
 using namespace std;
 int main ()
 {
-    char s[100];
-    while(gets(s))
-    {
-        puts(s);
-    }
+    cout << "KABIR" << endl;
     return 0;
 }
