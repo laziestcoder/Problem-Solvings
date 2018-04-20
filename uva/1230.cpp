@@ -1,3 +1,12 @@
+/************************************************************************/
+/*	Name: Towfiqul Islam 												*/
+/*	uva id: 448714 														*/
+/*	email id: towfiq.106@gmail.com										*/
+/*	institute: IIUC														*/
+/*	address: Chittagong, Bangladesh										*/
+/*																		*/
+/************************************************************************/
+
 #include<bits/stdc++.h>
 using namespace std;
 long long int mypm(long long int x, long long int y,long long int n)
