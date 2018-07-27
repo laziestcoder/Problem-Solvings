@@ -1,15 +1,27 @@
+//#include<bits/stdc++.h>
 #include<cstdio>
+#include<iostream>
 //#include<math.h>
 using namespace std;
 int main ()
 {
-    unsigned long long int a,b;
-    while(scanf("%llu%llu",&a,&b)!=EOF) //%I64u or %llu
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    unsigned long long a,b;
+    //long long int a,b;
+    //while(scanf("%llu%llu",&a,&b)==2)  //%I64u or %llu
+    while(cin>>a>>b)  //%I64u or %llu
     {
-        if(a>b)
-        printf("%llu\n",a-b);
+        if(a>=b)
+        {
+            printf("%llu\n",a-b);
+            //cout<<a-b<<endl;
+        }
         else
-        printf("%llu\n",b-a);
+        {
+            printf("%llu\n",b-a);
+            //cout<<b-a<<endl;
+        }
     }
     return 0;
 }
