@@ -402,6 +402,170 @@ int fib(int n)
 
 ***/
 
+/***
+//Reverse a String
+
+string FirstReverse(string str) {
+
+  // code goes here
+  for(int i=0,j=str.length()-1;i<str.length()/2;i++,j--)
+  {
+    str[i]^=str[j]^=str[i]^=str[j];
+  }
+  return str;
+
+}
+
+***/
+
+/***
+// String to integer
+vector<int> parseInts(string str)
+{
+    // Complete this function
+    vector<int> sb;
+    int i,k=0;
+    string s="",ss[100000];
+    //cout<<str.size()<<endl;
+    for(i=0; i<str.size(); i++)
+    {
+        if(str[i+1]==',' || i+1==str.size())
+        {
+            s+=str[i];
+            //cout<<s<<endl;
+            ss[k] = s;
+            s="";
+            k++;
+            i++;
+        }
+        else
+        {
+            s+=str[i];
+        }
+
+    }
+
+    int m=0,y=0,p=0,sign = 0;
+    //cout<<sizeof(ss)/800<<endl;
+    //cout<<k<<endl;
+    for(i=0; i<k; i++)
+    {
+        m=0;
+        y=0;
+        sign = 0;
+        for(p=ss[i].size()-1; p>=0; p--)
+        {
+            if(ss[i][p]=='-')
+            {
+                sign = 1;
+            }else{
+            m+=(ss[i][p]-'0'+0)*pow(10,y);
+            }
+            y++;
+        }
+        sign == 1 ?  m *=-1 : m *= 1;
+        sb.push_back(m);
+    }
+    return sb;
+}
+***/
+
+/***
+// string array size
+static int foo(const std::string *array)
+{
+    size_t i = 0;
+    while (!array[i].empty())
+        ++i;
+    return i;
+}
+
+***/
+/***
+// Number to String
+
+string nTs(int i){
+    string s="";
+    char c,p;
+    int m;
+    p = 0;
+    //cout<<"i "<<i<<endl;
+    while(i !=0 ){
+        m = i%10;
+        c = m-p+'0';
+        //cout<<"what "<<c<<endl;
+        s += c;
+        //cout<<s<<endl;
+        i/=10;
+    }
+    //cout<<s<<endl;
+    string j ="";
+    int k;
+    k=s.size()-1;
+   // cout<<"k "<<k<<endl;
+    for(i=0;i<s.size();i++){
+        j += s[k];
+        k--;
+    }
+   // cout<<j<<endl;
+    return j;
+
+}
+
+***/
+
+/***
+// finds shortest sub-string from a string from specific characters/strings
+
+string mySubStr(string str, string pat)
+{
+    int len1 = str.length();
+    int len2 = pat.length();
+
+    int my_hash[noOfChar] = {0};
+    int my_str[noOfChar] = {0};
+
+    for (int i = 0; i < len2; i++)
+        my_hash[pat[i]]++;
+
+    int start = 0, start_index = -1, min_len = INT_MAX;
+
+
+    int cnt = 0;
+    for (int j = 0; j < len1 ; j++)
+    {
+        my_str[str[j]]++;
+
+        if (my_hash[str[j]] != 0 &&
+            my_str[str[j]] <= my_hash[str[j]] )
+            cnt++;
+
+
+        if (cnt == len2)
+        {
+            while ( my_str[str[start]] > my_hash[str[start]]
+                || my_hash[str[start]] == 0)
+            {
+
+                if (my_str[str[start]] > my_hash[str[start]])
+                    my_str[str[start]]--;
+                start++;
+            }
+
+            int len_window = j - start + 1;
+            if (min_len > len_window)
+            {
+                min_len = len_window;
+                start_index = start;
+            }
+        }
+    }
+
+    return str.substr(start_index, min_len);
+}
+***/
+
+
 
 /************************** Functions Ends Here ***************************/
 
