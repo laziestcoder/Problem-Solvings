@@ -1,0 +1,50 @@
+     <!--Hotel booking form start-->
+
+        <div class="container-fluid">
+            <div>
+                <div class=" col-md-11  image-form-div"
+                     style="background: #F8F8F8;  border-radius: 10px; box-shadow: 3px 3px 10px gray; margin-top: 20px;">
+                    <form  class="form-inline image-form">
+                        <div class="form-group">
+
+                            <input type="text" name="" class="form-control " placeholder="Your Location">
+                        </div>
+                        <div class="form-group">
+
+                            <input type="text" name="" class="form-control " placeholder="Your Direction">
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-daterange">
+
+                                <input type="text" class="form-control" value="2012-04-05" placeholder="Start Tour ">
+                                <div class="input-group-addon"><i class="glyphicon glyphicon-arrow-right"></i></div>
+                                <input type="text" class="form-control" value="2012-04-19" placeholder="End Tour">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" style="width: 160px;">
+                                <option disabled selected>Member</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+
+                            <input type="submit" value="Make A Plan"
+                                   class=" btn btn-primary form-control   submit-btn button-book-now"
+                                   style="width: 160px;">
+
+                        </div>
+
+
+                    </form>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Hotel booking form end-->

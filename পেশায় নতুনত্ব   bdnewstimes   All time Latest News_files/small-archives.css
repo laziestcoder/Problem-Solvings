@@ -1,0 +1,11 @@
+.widget .smallArchivesYearList > li {
+	margin-bottom: 4px;
+}
+.widget .smallArchivesMonthList li {
+	display: inline-block;
+	margin-right: 2px;
+}
+.widget .smallArchivesMonthList li span {
+	font-size: 80%;
+	margin-left: 2px;
+}

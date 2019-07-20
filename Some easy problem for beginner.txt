@@ -1,0 +1,53 @@
+
+
+No-uva id - qstn name
+
+
+1. 11461 - Square Numbers
+2. 10783 - Odd Sum
+3. 11854 - Egypt
+4. 11172 - Relational Operator
+5. 10055 - Hashmat the Brave 
+6. 11479 - Is this the easiest p
+7. 11727 - Cost Cutting
+8. 11332 - Summing Digits
+9. 11777 - Automate the Grade
+10. 11689 - Soda Surpler
+11. 11805 - Bafana Bafana
+12. 11677 - Alarm Clock
+13. 11650 - Mirror Clock
+14. 11984 - A Change in Thermal Unit
+15. 10071 - Back to High School Physics	
+16. 11715 - Car
+17. 11875 - Brick Game
+18. 11636 - Hello World!
+19. 11417 - GCD
+20. 11547 - Automatic Answer
+21. 11219 - How old are you?
+22. 100 - The 3n + 1 problem
+23. 10327 - Flip Sort
+24. 11716 - Digital Fortress
+25. 900 - Brick Wall Patterns
+26. 10079 - Pizza Cutting
+27. 11530 - SMS Typing
+28. 11734 - Big Number of Teams will Solve This
+29. 11713 - Abstract Names
+30. 10370 - Above Average
+31. 10921 - Find the Telephone
+32. 458 - The Decoder
+33. 10924 - Prime Words
+34. 10424 - Love Calculator
+35. 10346 - Peter's Smokes
+36. 10696 - f91
+37. 11743 - Credit Check
+38. 10494 - If We Were a Child Again
+39. 299 - Train Swapping
+40. 10035 - Primary Arithmetic
+41. 11934 - Magic Formula
+42. 11428 - Cubes
+43. 10591 - Happy Number
+44. 11192 - Group Reverse
+45. 11541 - Decoding
+46. 11150 - Cola
+47. 10931 - Parity
+48. 10784 - Diagonal

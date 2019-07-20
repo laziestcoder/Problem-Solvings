@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1449568385 source:e:\cuet_in_stack\aaa\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string.h>
+	<math.h>
+	<algorithm>
+	<string>
+	<map>
+	<queue>
+	<stack>
+	<set>
+	<vector>
+	<iomanip>
+

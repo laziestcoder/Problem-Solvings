@@ -1,0 +1,29 @@
+    import java.math.BigInteger;
+    import java.util.Scanner;
+     
+    public class Main {
+        public static void main(String[] args) {
+     
+            Scanner in = new Scanner(System.in);
+            while (in.hasNext()) {  //this works as (scanf("%d",&num)!=EOF)
+               
+     
+                BigInteger num = BigInteger.ZERO;  //initializing the variable with zero
+                BigInteger num2 = BigInteger.ZERO;
+                BigInteger num3 = BigInteger.ONE;
+                BigInteger num4 = BigInteger.ZERO;
+     
+                num = in.nextBigInteger();  //taking the input
+                num2 = in.nextBigInteger();
+               
+                num3 = num.add(num2); //addition num3 = num + num2;
+                System.out.println("Sum: " + num3);
+                num4 = num.subtract(num2);  //subtraction num3 = num - num2;
+                System.out.println("Difference: " + num4);
+     
+     
+               
+            }
+        }
+    }
+

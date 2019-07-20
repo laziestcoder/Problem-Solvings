@@ -1,0 +1,79 @@
+*{margin:0;padding:0}
+.main_social i {
+	color: #FFFFFF;
+	font-size: 24px;
+	height: 40px;
+	line-height: 40px !important;
+	text-align: center;
+	width: 40px;
+	cursor: pointer;
+}
+.main_social {
+  height: auto;
+  left: 0;
+  position: fixed;
+  top: 30%;
+  z-index:999999999;
+}
+.on{position:absolute}
+.facebook_area{}
+.facebook_left{z-index:10005;
+border:2px solid #3c95d9;
+background-color:#fff;
+width:240px !important;
+height:236px !important;
+margin-left:-244px;
+position:relative;
+}
+.facebook_left iframe{
+border:0px solid #3c95d9 !important;
+overflow:hidden !important;
+height:236px !important;
+}
+.c_facebook{background: none repeat scroll 0 0 #3498db;position: absolute;
+left: 242px;top:-2px}
+.twitter_area{position:relative;top:40px}
+.twitter_left{z-index:10004;
+border:2px solid #6CC5FF;
+background-color:#6CC5FF;
+width:250px;
+height:240px;
+margin-left:-254px;
+position:relative;
+
+}
+.twitter_left div iframe{overflow:hidden !important;height:237px !important }
+.c_twitter{background: none repeat scroll 0 0 #6CC5FF;position: absolute;
+left: 252px;top:-2px
+}
+.google_area{top:80px}
+.google_left{z-index:10003;
+background-color:#F2F2F2;
+border:2px solid #e74c3c;
+width:290px;
+height:250px;
+position:relative;
+margin-left:-294px;}
+.c_google{background: none repeat scroll 0 0 #e74c3c;left: 292px;
+position: absolute;
+top: -2px;
+}
+.youtube_area{top:120px}
+.youtube_left{z-index:10002;
+background-color:#fefefe;
+border:2px solid #c0392b;
+width:216px;
+height:70px;
+position:relative;
+margin-left:-220px;}
+.c_youtube{background: none repeat scroll 0 0 #c0392b;position:absolute;
+top:-2px;
+left:218px;
+}
+.hidebar {
+background: none repeat scroll 0 0 #6CC5FF;
+bottom: 0;
+height: 20px;
+position: absolute;
+width: 250px;
+}

@@ -1,0 +1,10 @@
+Cracking Password:
+Tips 1:
+Try Common passwords
+name combination
+personal likes
+combine these tips
+try adding number or year
+
+
+Tips 2:

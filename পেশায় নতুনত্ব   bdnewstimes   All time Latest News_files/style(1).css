@@ -1,0 +1,58 @@
+/* *     Tabs popular posts and latest posts*     Copyright (C) 2011 - 2014 www.gopiplus.com*     http://www.gopiplus.com/work/2012/11/24/wordpress-plugin-tabs-widget-popular-posts-and-latest-posts/*     License: GPLv2 or later*//*#TabsPostsTabber { display: block; height: auto; margin: 0px 0px 25px 0px; overflow: hidden; }*/
+#TabsPostsTabber {
+	display: block;
+	height: 340px;
+	margin: 0px 0px 25px 0px;
+	overflow: scroll;
+}
+#TabsPostsTabber .TabsPostsInside {
+	background: #fff;
+	margin-top: -3px;
+	padding: 10px 15px 10px;
+	border: 3px solid #f0f0f0;
+}
+#TabsPostsTabber ul.TabsPostsTabs {
+	height: 40px;
+	margin: 0em;
+	overflow: hidden;
+}
+#TabsPostsTabber ul.TabsPostsTabs li {
+	background: none;
+	float: left;
+	display: inline;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	border-bottom: none;
+}
+#TabsPostsTabber ul.TabsPostsTabs li a {
+	background: url(ico-hot-grey.png) no-repeat 9px 7px;
+	color: #999;
+	display: block;
+	float: left;
+	margin: 0 0 0 3px;
+	padding: 0 13px 0 30px;
+	border-top: 0px solid #FFFFFF;
+	line-height: 38px;
+}
+#TabsPostsTabber ul.TabsPostsTabs li a.selected {
+	background:#fff url(ico-hot-orange.png) no-repeat 9px 7px;
+	margin: 0;
+	color: #444;
+	text-decoration: none;
+	border: 3px solid #f0f0f0;
+	border-bottom: 0;
+	line-height: 38px;
+}
+#TabsPostsTabber ul.TabsPostsTabs li a:hover {
+	color: #444;
+	text-decoration: none;
+}
+#TabsPostsTabber .TabsPostsInside div {
+	line-height:30px;
+	border-bottom: 1px solid #f0f0f0;
+}
+#TabsPostsTabber div clear {
+	display: block;
+}

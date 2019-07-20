@@ -1,0 +1,5 @@
+G(b): 1 KM = 3280.8399 Feet, 1 Meter = 3.28 Feet, 1 inch = 2.54 Centimeters
+
+G(d): C * 9/5 + 32 = F, (F - 32) * 5/9 = C
+
+G(e): Perimeter of rectangle: P = 2(l+w), Area of circle A = pi * r * r, Circumference of circle C = 2pir.
