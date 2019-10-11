@@ -2,3 +2,7 @@
 /.exe
 /.o
 /.O
+/.idea
+*.exe
+*.o
+*.O
