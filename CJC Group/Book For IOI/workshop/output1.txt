@@ -1,7 +1,0 @@
-even
-even
-odd
-even
-odd
-odd
-odd
