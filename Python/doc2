@@ -1,8 +1,0 @@
-def insert_sequence(dna1, dna2, index):
-    '''(str, str, int) -> str
-    '''
-    if index is 0:
-        return dna2 + dna1
-    else:
-        return dna1[:index] + dna2 + dna1[index:]
-    
